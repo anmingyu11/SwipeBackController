@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <style name="TranslucentTheme" parent="Theme.AppCompat">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@style/NoWindowAnimation</item>
+    </style>
+
+    <style name="NoWindowAnimation">
+
+        <item name="android:activityOpenEnterAnimation">@null</item>
+
+        <item name="android:activityOpenExitAnimation">@null</item>
+
+        <item name="android:activityCloseEnterAnimation">@null</item>
+
+        <item name="android:activityCloseExitAnimation">@null</item>
+
+    </style>
+
+</resources>

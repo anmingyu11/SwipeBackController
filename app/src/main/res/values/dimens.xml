@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <item format="float" name="activity_anim_scale_end" type="dimen">0.95</item>
+    <item format="float" name="activity_anim_alpha_out_end" type="dimen">0.25</item>
+</resources>
